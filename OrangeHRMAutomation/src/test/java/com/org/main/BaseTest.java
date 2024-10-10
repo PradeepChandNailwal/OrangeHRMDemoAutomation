@@ -21,7 +21,7 @@ public class BaseTest {
 		}
 	}
 
-	@AfterClass
+	//@AfterClass
 	public void closeBrowser() {
 		try {
 			Thread.sleep(3000);

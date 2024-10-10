@@ -5,9 +5,9 @@
     <classes>
       <class name="com.org.tests.AdminTestCases">
         <methods>
-          <include name="validateLogin"/>
           <include name="closeBrowser"/>
-          <include name="validateAdminMenu"/>
+          <include name="validateLogin"/>
+          <include name="validateUserCreation"/>
           <include name="openBrowser"/>
         </methods>
       </class> <!-- com.org.tests.AdminTestCases -->

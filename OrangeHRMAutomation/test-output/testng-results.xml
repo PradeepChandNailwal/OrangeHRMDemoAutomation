@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-09T23:04:25 IST" name="Suite" finished-at="2024-10-09T23:05:15 IST" duration-ms="50134">
+  <suite started-at="2024-10-10T23:16:53 IST" name="Default suite" finished-at="2024-10-10T23:17:22 IST" duration-ms="29912">
     <groups>
     </groups>
-    <test started-at="2024-10-09T23:04:25 IST" name="Test" finished-at="2024-10-09T23:05:15 IST" duration-ms="50134">
-      <class name="com.org.tests.LoginPageTests">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.org.tests.LoginPageTests@33d512c1]" started-at="2024-10-09T23:04:25 IST" name="openBrowser" finished-at="2024-10-09T23:04:35 IST" duration-ms="9617" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="validateLogin()[pri:0, instance:com.org.tests.LoginPageTests@33d512c1]" started-at="2024-10-09T23:04:35 IST" name="validateLogin" finished-at="2024-10-09T23:04:36 IST" duration-ms="1473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.org.tests.LoginPageTests@33d512c1]" started-at="2024-10-09T23:04:36 IST" name="closeBrowser" finished-at="2024-10-09T23:04:40 IST" duration-ms="3354" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.org.tests.LoginPageTests -->
-      <class name="com.org.tests.PIMTestCases">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.org.tests.PIMTestCases@3c41ed1d]" started-at="2024-10-09T23:04:58 IST" name="openBrowser" finished-at="2024-10-09T23:05:07 IST" duration-ms="8955" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="validateLogin()[pri:0, instance:com.org.tests.PIMTestCases@3c41ed1d]" started-at="2024-10-09T23:05:07 IST" name="validateLogin" finished-at="2024-10-09T23:05:11 IST" duration-ms="4427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method signature="validatePIMMenu()[pri:0, instance:com.org.tests.PIMTestCases@3c41ed1d]" started-at="2024-10-09T23:05:11 IST" name="validatePIMMenu" finished-at="2024-10-09T23:05:12 IST" duration-ms="955" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePIMMenu -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.org.tests.PIMTestCases@3c41ed1d]" started-at="2024-10-09T23:05:12 IST" name="closeBrowser" finished-at="2024-10-09T23:05:15 IST" duration-ms="3221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.org.tests.PIMTestCases -->
+    <test started-at="2024-10-10T23:16:53 IST" name="Default test" finished-at="2024-10-10T23:17:22 IST" duration-ms="29912">
       <class name="com.org.tests.AdminTestCases">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.org.tests.AdminTestCases@34e9fd99]" started-at="2024-10-09T23:04:40 IST" name="openBrowser" finished-at="2024-10-09T23:04:49 IST" duration-ms="9218" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.org.tests.AdminTestCases@6c6cb480]" started-at="2024-10-10T23:16:53 IST" name="openBrowser" finished-at="2024-10-10T23:17:03 IST" duration-ms="10268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="validateLogin()[pri:0, instance:com.org.tests.AdminTestCases@34e9fd99]" started-at="2024-10-09T23:04:49 IST" name="validateLogin" finished-at="2024-10-09T23:04:53 IST" duration-ms="4482" status="PASS">
+        <test-method is-config="true" signature="validateLogin()[pri:0, instance:com.org.tests.AdminTestCases@6c6cb480]" started-at="2024-10-10T23:17:03 IST" name="validateLogin" finished-at="2024-10-10T23:17:09 IST" duration-ms="5739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method signature="validateAdminMenu()[pri:0, instance:com.org.tests.AdminTestCases@34e9fd99]" started-at="2024-10-09T23:04:53 IST" name="validateAdminMenu" finished-at="2024-10-09T23:04:54 IST" duration-ms="1050" status="PASS">
+        <test-method signature="validateWorkShifts()[pri:0, instance:com.org.tests.AdminTestCases@6c6cb480]" started-at="2024-10-10T23:17:09 IST" name="validateWorkShifts" finished-at="2024-10-10T23:17:22 IST" duration-ms="13862" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAdminMenu -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.org.tests.AdminTestCases@34e9fd99]" started-at="2024-10-09T23:04:54 IST" name="closeBrowser" finished-at="2024-10-09T23:04:58 IST" duration-ms="3331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
+        </test-method> <!-- validateWorkShifts -->
       </class> <!-- com.org.tests.AdminTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
